@@ -30,7 +30,7 @@
 }
 
 .navbar a {
-    margin-left: 60px;
+    margin-left: 40px;
     font-family: 'Inter', sans-serif; /* Menggunakan font Inter */
     font-weight: 500; /* Bobot medium (500) */
     font-size: 18px;
@@ -75,7 +75,7 @@ span{
     font-family: 'Roboto', sans-serif; /* Menggunakan font Roboto */
     font-weight: 300; /* Bobot medium (500) */
     font-size: 16px; /* Ukuran font 20px */
-    width: 450px; /* Lebar 674px */
+    width: 400px; /* Lebar 674px */
     height: 70px;
 }
 
