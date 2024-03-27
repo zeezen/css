@@ -1,0 +1,527 @@
+*{
+    background-color: #151925;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #181424;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.header-content h1 {
+    margin-left: 14px; /* Atur jarak antara foto dan teks */
+    font-family: 'Sen', sans-serif; /* Menggunakan font Sen */
+    font-weight: 800; /* Berat tebal ekstra (800) */
+    font-size: 24px;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar a {
+    margin-left: 60px;
+    font-family: 'Inter', sans-serif; /* Menggunakan font Inter */
+    font-weight: 500; /* Bobot medium (500) */
+    font-size: 18px;
+}
+
+.active {
+    color: #01EEFF; /* Ubah warna teks menjadi #01EEFF */
+}
+
+span{
+    color: #01EEFF;
+}
+
+.home {
+    padding: 0 80px;
+    height: 630px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-content {
+    float: left; /* Mulai dari sisi kiri */
+    margin-top: 25px;
+    margin-right: auto;
+}
+
+.home-content p {
+    font-family: 'Inter', sans-serif; /* Menggunakan font Inter */
+    font-weight: 800; /* Bobot ekstra tebal (800) */
+    font-size: 28px; /* Ukuran font 32px */
+}
+
+.home-content h1 {
+    font-family: 'Sen', sans-serif; /* Menggunakan font Sen */
+    font-weight: 800; /* Bobot ekstra tebal (800) */
+    font-size: 50px; /* Ukuran font 75px */
+    width: 400px;
+    height: 135px;
+}
+
+.home-content h3 {
+    font-family: 'Roboto', sans-serif; /* Menggunakan font Roboto */
+    font-weight: 300; /* Bobot medium (500) */
+    font-size: 16px; /* Ukuran font 20px */
+    width: 500px; /* Lebar 674px */
+    height: 70px;
+}
+
+.social-media i {
+    font-size: 54px; /* Atur ukuran ikon menjadi 24px */
+    color: #01EEFF;
+    margin-right: 40px;
+}
+
+.home-foto {
+    float: right;
+    margin-top: 25px;
+}
+
+.about {
+    padding: 0 80px;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #323846;
+}
+
+.about-content {
+    display: flex;
+    align-items: center; /* Menengahkan vertikal teks dan gambar */
+    background-color: #323846;
+}
+
+.about-content img {
+    margin-right: 100px; /* Atur margin kanan sesuai kebutuhan */
+    background-color: #323846;
+}
+
+.about-content h1 {
+    font-family: 'Sen', sans-serif; /* Menggunakan font Sen */
+    font-weight: 800; /* Berat tebal ekstra (800) */
+    font-size: 50px;
+    background-color: #323846;
+}
+
+.kanan-about {
+    background-color: #323846;
+}
+
+.kanan-about span {
+    background-color: #323846;
+}
+
+.about-content p {
+    font-family: 'Roboto', sans-serif; /* Menggunakan font Roboto */
+    font-weight: 400; /* Bobot regular (400) */
+    font-size: 16px; /* Ukuran font 26px */
+    width: 680px; /* Lebar box 674px */
+    height: 220px;
+    background-color: #323846;
+}
+
+.skill {
+    padding: 0 80px;
+    height: 680px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kotak-kiri {
+    float: left;
+    margin-left: 100px;
+}
+
+.kotak-kanan {
+    float: right;
+    margin-right: 100px;
+}
+
+.skill-content img {
+    width: 85px;
+    height: 85px;
+}
+
+.skill h1 {
+    margin-top: 80px;
+    font-family: 'Sen', sans-serif; /* Menggunakan font Sen */
+    font-weight: 800; /* Berat tebal ekstra (800) */
+    font-size: 50px;
+}
+
+.bar-scale {
+    width: 200px;
+    height: 40px;
+    background-color: #323846;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: cyan;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+.skill-section-1,
+.skill-section-2,
+.skill-section-3,
+.skill-section-4,
+.skill-section-7,
+.skill-section-8 {
+    display: flex;
+    align-items: center;
+    width: 300px; /* Sesuaikan dengan lebar kotak */
+    height: 110px;
+    margin-bottom: 5px;
+}
+
+.skill-section-5 {
+    display: flex;
+    align-items: center;
+    width: 300px; /* Sesuaikan dengan lebar kotak */
+    height: 110px;
+    margin-bottom: 5px;
+}
+
+.skill-section-6 {
+    display: flex;
+    align-items: center;
+    width: 300px; /* Sesuaikan dengan lebar kotak */
+    height: 110px;
+    margin-bottom: 5px;
+}
+
+.skill-section-1 h2,
+.skill-section-2 h2,
+.skill-section-3 h2,
+.skill-section-4 h2,
+.skill-section-7 h2,
+.skill-section-8 h2 {
+    margin-bottom: -0.7px;
+    font-family: 'Roboto', sans-serif; /* Menggunakan font Roboto */
+    font-weight: 500; /* Bobot regular (400) */
+    font-size: 22px;
+}
+
+.skill-section-5 h2 {
+    margin-bottom: -0.7px;
+    font-family: 'Roboto', sans-serif; /* Menggunakan font Roboto */
+    font-weight: 500; /* Bobot regular (400) */
+    font-size: 22px;
+}
+
+.skill-section-6 h2 {
+    margin-bottom: -0.7px;
+    font-family: 'Roboto', sans-serif; /* Menggunakan font Roboto */
+    font-weight: 500; /* Bobot regular (400) */
+    font-size: 22px;
+}
+
+.left{
+    margin-right: 20px;
+}
+
+.right {
+    flex-direction: column;
+    height: 100px;
+}
+
+.whyme {
+    padding: 0 80px;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #323846;
+}
+
+.whyme-content {
+    display: flex;
+    align-items: center; /* Menengahkan vertikal teks dan gambar */
+    background-color: #323846;
+}
+
+.whyme-content img {
+    margin-right: 100px; /* Atur margin kanan sesuai kebutuhan */
+    background-color: #323846;
+}
+
+.whyme-content h1 {
+    font-family: 'Sen', sans-serif; /* Menggunakan font Sen */
+    font-weight: 800; /* Berat tebal ekstra (800) */
+    font-size: 50px;
+    background-color: #323846;
+}
+
+.kanan-whyme {
+    background-color: #323846;
+}
+
+.kanan-whyme span {
+    background-color: #323846;
+}
+
+.whyme-content p {
+    font-family: 'Roboto', sans-serif; /* Menggunakan font Roboto */
+    font-weight: 400; /* Bobot regular (400) */
+    font-size: 16px; /* Ukuran font 26px */
+    width: 550px; /* Lebar box 674px */
+    height: 220px;
+    background-color: #323846;
+}
+
+.testimoni {
+    display: flex; /* Menambahkan properti display flex */
+    padding: 0 80px;
+    height: 680px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimoni h1 {
+    margin-top: 50px;
+    font-family: 'Sen', sans-serif; /* Menggunakan font Sen */
+    font-weight: 800; /* Berat tebal ekstra (800) */
+    font-size: 50px;
+}
+
+
+.section-testimoni-1 {
+    background-color: #848484;
+    border-radius: 25px;
+}
+.section-testimoni-2 {
+    background-color: #848484;
+    border-radius: 25px;
+}
+
+.section-testimoni-1 p,
+.section-testimoni-2 p{
+    background-color: #848484;
+    font-family: 'Sen', 'sans-serif';
+}
+
+.section-testimoni-1 h2,
+.section-testimoni-2 h2{
+    background-color: #848484;
+    font-family: 'Sen', 'sans-serif';
+    color: black;
+}
+
+.section-testimoni-1 h3,
+.section-testimoni-2 h3{
+    background-color: #848484;
+    font-family: 'Sen', 'sans-serif';
+}
+
+.section-testimoni-1 p,
+.section-testimoni-2 p{
+    background-color: #848484;
+    font-family: 'Sen', 'sans-serif';
+}
+
+.section-testimoni-1 img,
+.section-testimoni-2 img{
+    background-color: #848484;
+    height: 50px;
+    width: 50px;
+}
+
+.my-portofolio {
+    padding: 0 80px;
+    height: 680px;
+    background-color: #323846;
+}
+
+.my-portofolio img{
+    width: 243px;
+    height: 277px;
+}
+
+.my-portofolio span{
+    background-color: #323846;
+}
+.my-portofolio p{
+    background-color: #BFBFBF;
+    color: black;
+    width: 243px;
+    font-family: 'Inter', 'Sans-serif';
+    margin: 0;
+    font-size: 16px;
+}
+
+.my-portofolio h1 {
+    font-family: 'Sen', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 20px;
+    background-color: #323846
+}
+
+.porto {
+    display: flex;
+    justify-content: space-between; /* Mengatur jarak antara divs */
+    background-color: #323846
+}
+
+.myportofolio-1,
+.myportofolio-2,
+.myportofolio-3 {
+    max-width: 300px;
+    background-color: #323846;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.btn{
+    background-color: #323846;
+}
+
+.btn button{
+    background-color: #01EEFF;
+    color: black;
+    border-radius: 5px;
+    font-family: 'Inter', 'Sans-serif';
+}
+
+.contact-section {
+    padding: 0 80px;
+    height: 680px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-section h1 {
+    font-family: 'Sen', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.kiri-conta{
+    max-width: 400px;
+    float: left;
+    font-family: 'Inter', 'Sans-serif';
+    font-size: 12px;
+}
+
+.kanan-conta{
+    float: right;
+    max-width: 500px;
+}
+
+.kanan-conta img{
+    width: 300px;
+    height: 330px;
+}
+
+.input-field input[type="text"] {
+    background-color: #BFBFBF; /* Warna latar belakang */
+    height: 30px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-family: 'Inter', 'Sans-serif';
+}
+
+.textarea-field textarea {
+    background-color: #BFBFBF; /* Warna latar belakang */
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-family: 'Inter', 'Sans-serif';
+}
+
+.submit-btn button {
+    background-color: #01EEFF; /* Warna latar belakang */
+    color: black;
+    border-radius: 6px;
+    font-family: 'Inter', 'Sans-serif';
+    height: 25px;
+    width: 50px;
+}
+
+.medsos {
+    display: flex;
+    flex-direction: column; /* Menetapkan tata letak kolom */
+}
+
+.medsos i {
+    font-size: 20px; /* Atur ukuran ikon menjadi 24px */
+    color: #01EEFF;
+}
+
+.medsos a {
+    margin-bottom: 6px;
+    color: white; /* Memberikan jarak antara setiap elemen a */
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #181424;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Sen', 'Sans-serif';
+}
+
+.isi-kiri {
+    display: flex;
+    align-items: center; /* Mengatur teks dan gambar agar berada di tengah secara vertikal */
+}
+
+.isi-kiri h1{
+    font-size: 20px;
+}
+
+.isi-kiri p{
+    font-size: 12px;
+    max-width: 350px;
+}
+
+.fot-kiri h3{
+    font-size: 12px;
+}
+
+.teksnya {
+    margin-left: 10px; /* Memberikan jarak antara gambar dan teks */
+}
+
+.fot-tengah h1{
+    font-size: 14px;
+}
+
+.fot-tengah p{
+    font-size: 10px;
+}
+
+.social-media-footer i{
+    font-size: 20px;
+    color: #01EEFF;
+}
