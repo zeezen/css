@@ -90,6 +90,11 @@ span{
     margin-top: 25px;
 }
 
+.home-foto img{
+    width: 328px;
+    height: 439px;
+}
+
 .about {
     padding: 0 80px;
     height: 680px;
